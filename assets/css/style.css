@@ -65,3 +65,28 @@ h1 {
 #site-logo, #nav-menu {
   line-height: 60px;
 }
+
+
+/* main area */
+
+main {
+  margin: 0 auto;
+  width: 80%;
+}
+
+main section {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  
+  background-color: #3f3f3f3f;
+  backdrop-filter: blur(10px);
+  filter: drop-shadow(10px 10px 5px #3f3f3f5f);
+}
+
+#intro {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
