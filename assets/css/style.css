@@ -6,8 +6,14 @@
   border: 0;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: Bitter, serif;
+  background: url(../images/Chichen_Itza.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 
