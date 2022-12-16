@@ -104,3 +104,13 @@ section p {
   line-height: 30px;
   margin-bottom: 10px;
 }
+
+#sources ul {
+  list-style-type: circle;
+  padding: 0 30px;
+  font-size: 120%;
+}
+
+#sources li {
+  margin-bottom: 5px;
+}
