@@ -40,14 +40,20 @@ h1 {
 }
 
 #nav-menu a:hover {
+  text-shadow: 0 0 5px white;
   text-decoration: underline;
 }
 
 #site-logo {
   float: left;
   margin-left: 10px;
-  padding: 0 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   color: burlywood;
+}
+
+#site-logo:hover {
+  text-shadow: 0 0 20px white;
 }
 
 #site-logo, #nav-menu {
