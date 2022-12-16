@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=PT+Serif:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: Bitter, serif;
+}
+
+
+/* navigation */
+
+header {
+  height: 60px;
+  background-color: #000000;
+}
+
+h1 {
+  font-family: PT Serif, serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#nav-menu {
+  float: right;
+  list-style-type: none;
+}
+
+#nav-menu li {
+  float: left;
+}
+
+#nav-menu a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+#nav-menu a:hover {
+  text-decoration: underline;
+}
+
+#site-logo {
+  float: left;
+  margin-left: 10px;
+  padding: 0 10px;
+  color: burlywood;
+}
+
+#site-logo, #nav-menu {
+  line-height: 60px;
+}
