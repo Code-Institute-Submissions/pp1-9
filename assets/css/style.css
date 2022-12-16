@@ -45,9 +45,12 @@ h1 {
   text-decoration: none;
 }
 
+#nav-menu a:hover, #nav-menu a.active {
+  text-decoration: underline;
+}
+
 #nav-menu a:hover {
   text-shadow: 0 0 5px white;
-  text-decoration: underline;
 }
 
 #site-logo {
