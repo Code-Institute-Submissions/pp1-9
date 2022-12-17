@@ -2,11 +2,16 @@
 [ ] add a timeline to the overview page
 [ ] add more info on the overview page, maybe change name to Information and use multiple sections for language, timeline etc
 [ ] if doing this ^, then add a little menu to navigate to each section?
+[ ] and add smooth scroll https://gomakethings.com/smooth-scrolling-links-with-only-css/
+
+[ ] put images alongside different sections on overview page
+[ ] footer (sticky)
+
 [ ] quiz page? to be interactive
 [ ] gradient fade out of navbar (using extra div?)
 [ ] add animations to things like form input outline, sections appearing maybe
 [ ] parallax on the background image?
-
+[ ] form action+method?
 
 
 
