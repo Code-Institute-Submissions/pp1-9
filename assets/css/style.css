@@ -21,7 +21,7 @@ body {
 
 header {
   height: 60px;
-  background-color: #000000;
+  background-color: black;
 }
 
 h1 {
@@ -83,9 +83,9 @@ section {
   border-radius: 20px;
   padding: 20px;
   
-  background-color: #3f3f3f3f;
+  background-color: rgba(255, 255, 255, 45%);
   backdrop-filter: blur(10px);
-  filter: drop-shadow(10px 10px 5px #3f3f3f5f);
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 35%));
 }
 
 section h2 {
@@ -132,16 +132,21 @@ textarea {
 
 input, textarea {
   border: 2px solid lightgrey;
+  border-radius: 5px;
   padding: 2px;
+  
+  /* https://www.w3schools.com/howto/howto_css_transition_hover.asp */
+  transition: 0.3s
 }
 
 input:focus, textarea:focus {
   outline: none;
-  border: 2px solid black;
+  border-color: black;
 }
 
 fieldset {
   border: 2px solid black;
+  border-radius: 5px;
   padding: 10px;
   margin-top: 10px;
 }
