@@ -1,0 +1,17 @@
+[x] add a contact form
+[ ] add a timeline to the overview page
+[ ] add more info on the overview page, maybe change name to Information and use multiple sections for language, timeline etc
+[ ] if doing this ^, then add a little menu to navigate to each section?
+[ ] quiz page? to be interactive
+[ ] gradient fade out of navbar (using extra div?)
+[ ] add animations to things like form input outline, sections appearing maybe
+[ ] parallax on the background image?
+
+
+
+
+readme:
+problem: i wanted to make background image fit screen vertically but i couldn't with just css background-image, so i used html img instead
+
+https://developer.mozilla.org/en-US/docs/Web/CSS used this for help with some css properties
+took inspiration from https://adventofcode.com/ for text-shadow glow
