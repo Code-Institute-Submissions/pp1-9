@@ -99,12 +99,19 @@ section h2 {
   text-decoration: underline;
 }
 
+section h3 {
+  font-size: 150%;
+  padding: 0 30px;
+  text-shadow: 0 0 2px white;
+  text-decoration: underline 2px;
+  margin-bottom: 5px;
+}
+
 section p {
   font-size: 135%;
-  padding: 0 30px;
+  margin: 0 30px 15px;
   text-shadow: 0 0 3px white;
   line-height: 30px;
-  margin-bottom: 10px;
 }
 
 
