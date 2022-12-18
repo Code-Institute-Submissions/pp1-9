@@ -8,7 +8,7 @@
 
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 
-    <title>Maya - Overview</title>
+    <title>Maya</title>
 
     <script src="https://kit.fontawesome.com/b486295deb.js" crossorigin="anonymous"></script>
 </head>
@@ -21,10 +21,16 @@
         <nav>
             <ul id="nav-menu">
                 <li>
-                    <a href="#" class="active">Overview</a>
+                    <a href="#timeline">Timeline</a>
                 </li>
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="#language">Language</a>
+                </li>
+                <li>
+                    <a href="#sources">Sources</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -107,8 +113,6 @@
                 <p>Yucatec Maya is spoken in the Yucatán Peninsula and northern Belize. Its speakers refer to the language as Maya, or <em>màaya t'àan</em>. The word Maya itself comes from the Yucatec Maya <em>mayab</em>, meaning "flat".</p>
                 <p>Before the Spanish conquest of Yucatán, Yucatec Maya was written using Maya script. This consisted of a relatively elaborate set of glyphs, which were laboriously painted on ceramics, walls and bark-paper codices, or carved in wood or stone. Individual glyphs could represent either a word or a syllable, and the same glyph could often be used for both.</p>
             </article>
-
-
         </section>
 
         <section id="sources">
@@ -121,6 +125,35 @@
                     <a href="https://en.wikipedia.org/wiki/Maya_civilization" target="_blank"><i class="fa-brands fa-wikipedia-w"></i> Wikipedia</a>
                 </li>
             </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact form</h2>
+            <p style="text-align: center;">
+                Want to learn more about the Mayan people? Contact a historian by filling out this form!
+            </p>
+            <form method="POST" action="https://formdump.codeinstitute.net/">
+                <fieldset>
+                    <legend>Your details</legend>
+                    <div class="labels">
+                        <label for="name">Name</label>
+                        <br>
+                        <label for="email">Email address</label>
+                    </div>
+                    <div class="inputs">
+                        <input type="text" name="name" id="name" placeholder="Name (optional)">
+                        <br>
+                        <input type="email" name="email" id="email" placeholder="Email (required)" required>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Message</legend>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here..." required></textarea>
+                </fieldset>
+
+                <input type="submit" value="Send">
+            </form>
         </section>
     </main>
 </body>

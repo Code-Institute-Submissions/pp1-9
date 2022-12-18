@@ -46,7 +46,7 @@ h1 {
   transition: 0.3s;
 }
 
-#nav-menu a:hover, #nav-menu a.active {
+#nav-menu a:hover {
   text-decoration: underline;
 }
 
@@ -121,9 +121,6 @@ section p {
   line-height: 30px;
 }
 
-
-/* overview page */
-
 article {
   overflow: hidden;
   margin-bottom: 20px;
@@ -147,9 +144,15 @@ figcaption {
   float: right;
 }
 
+
+/* timeline */
+
 #timeline img {
   max-width: 100%;
 }
+
+
+/* sources */
 
 #sources ul {
   list-style-type: circle;
@@ -166,7 +169,7 @@ figcaption {
 }
 
 
-/* contact page */
+/* contact */
 
 textarea {
   resize: none;
