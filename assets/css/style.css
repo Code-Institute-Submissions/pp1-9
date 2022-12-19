@@ -127,7 +127,7 @@ section h4 {
 section p {
   font-size: 135%;
   margin: 0 30px 15px;
-  text-shadow: 0 0 3px white;
+  text-shadow: 0 0 2px white;
   line-height: 30px;
   text-align: justify;
 }
@@ -145,7 +145,7 @@ footer {
 footer p {
   line-height: 25px;
   color: white;
-  text-shadow: 0 0 3px white;
+  text-shadow: 0 0 2px white;
   text-align: center;
 }
 
@@ -166,6 +166,7 @@ figure {
 figcaption {
   margin: 0 10px;
   text-align: center;
+  text-shadow: 0 0 2px white;
 }
 
 audio {
@@ -256,12 +257,12 @@ fieldset legend {
   line-height: 30px;
   width: 125px;
   text-align: right;
+  text-shadow: 0 0 2px white;
   max-width: 180px;
 }
 
 .labels label {
   width: 100%;
-  text-shadow: 0 0 3px white;
   margin-right: 10px;
 }
 
@@ -277,7 +278,6 @@ input[type=submit] {
   background-color: rgb(0, 255, 0);
   border-color: transparent;
   color: black;
-  text-shadow: 1px 1px 5px rgba(255, 255, 255, 100%);
   cursor: pointer;
 }
 
