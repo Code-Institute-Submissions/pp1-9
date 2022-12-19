@@ -1,108 +1,95 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Mayan civilization
 
-Welcome USER_NAME,
+This website teaches the reader all about the history of the ancient Mayan civilization. It's targeted towards those with a keen interest in learning about history and people.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsive markup](media/mockup.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Features
 
-## Gitpod Reminders
+- __Layout__
+    - The entire site has a background image of El Castillo, a large and well-known monument made by the Mayans.
+    - Each section of the page is semi-transparent, blurring the background image as well as casting a slight shadow on it.
+    - The text in each section has a slight white glow, which makes it stand out a little more.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- __Navigation bar__
+    - The responsive navigation bar allows the user to jump directly to each section of the page.
 
-`python3 -m http.server`
+![Navigation bar](media/navbar.png)
 
-A blue button should appear to click: _Make Public_,
+- __Introduction__
+    - The introduction section tells the user what to expect when reading through the site's content.
+    - It also serves to grab the user's attention in the hope that they feel interested enough to continue reading.
 
-Another blue button should appear to click: _Open Browser_.
+![Introduction section](media/intro.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __Timeline section__
+    - The timeline section gives a detailed description of each major period of the Maya civilization's history.
+    - This section also has relevant pictures for each period to give the user a better idea of how this civilization would have looked.
 
-A blue button should appear to click: _Make Public_,
+![Timeline section](media/timeline.png)
 
-Another blue button should appear to click: _Open Browser_.
+- __Language section__
+    - The language section explains to the user some information about the Mayan language family, as well as how many people speak these languages today.
+    - This section also contains an audio recording of a Mayan person singing a song and speaking in one of the Mayan languages.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Language section](media/language.png)
 
-To log into the Heroku toolbelt CLI:
+- __Sources section__
+    - The sources section contains links to the sources used in gathering the information that the site contains.
+    - The user can click these to open them in a new tab if they want to learn more.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Sources section](media/sources.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- __Contact form__
+    - The contact form allows the user to get in correspondence with a historian who knows more about the Mayan civilization.
+    - The user must input their email and a message, and can optionally include their name.
 
-------
+![Contact form](media/contact.png)
 
-## Release History
+### Features left to implement
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- Sticky navigation bar
+- A quiz on the information given to make it more fun for the user
+- Examples of the Maya script, and translations from English into Yucatec Maya
+- More animations, for example animating the underline on each link to expand out from the center
+- Center the navigation bar below the site logo when the screen is less than 600px wide
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Testing
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+As I added features to this site, I made sure to make the page responsive on different screen sizes.
+If the user is looking at the site on a phone, the navigation bar will appear under the site logo, instead of to the right of it.
+When I first added this feature, the site logo's link extended all the way across the header, and its padding stuck out on the right. I fixed this by switching the order of the `<h1>` and `<a>` tags used for the logo.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+In addition, the pictures in the timeline section will be placed between paragraphs, to make the page flow more naturally.
+This was a slight challenge for me, but after searching for solutions to my problem I found [this post](https://stackoverflow.com/questions/32559744/using-media-query-and-show-a-div-below-another-div-which-is-written-before) which helped me figure it out.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Validator testing
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- HTML
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftetraxile-ci.github.io%2Fpp1%2F)
+- CSS
+    - No errors were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftetraxile-ci.github.io%2Fpp1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Unfixed bugs
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- In the contact form, the labels for the name and email fields will end up above their respective entry fields if the screen is less than 430px wide. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Deployment
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- The site was deployed to GitHub Pages. The steps to deploy are as follows:
+    - In the GitHub repository, navigate to the Settings tab
+    - In the Pages section, select the `main` branch and click "Save"
+    - Once this branch has been selected, the site will be deployed within a few minutes.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Credits
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Content
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- The text in the intro section was edited from [this website](https://www.historyonthenet.com/mayans-overview-civilization).
+- The text in the timeline and language sections was edited from [Wikipedia - Maya civilization](https://en.wikipedia.org/wiki/Maya_civilization), [Wikipedia - Mayan languages](https://en.wikipedia.org/wiki/Mayan_languages) and [Wikipedia - Yucatec Maya language](https://en.wikipedia.org/wiki/Yucatec_Maya_language).
+- The Wikipedia logo in the sources section was taken from [Font Awesome](https://fontawesome.com/).
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Media
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+- The images used on the timeline section and for the background of the site were taken from [Wikimedia Commons](https://commons.wikimedia.org).
+- The audio recording in the language section was extracted from [this video](https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Manuel_speaking_Yucatecan.webm) on Wikimedia Commons.
