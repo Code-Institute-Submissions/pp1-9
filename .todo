@@ -10,21 +10,10 @@
 [x] footer
 
 [ ] sticky header
-[ ] regroup css rules that are shared among elements, like make a "glow" class and do the text-shadow there
 [ ] add animations to things like form input outline, sections appearing maybe
 [ ] parallax on the background image?
-[ ] add smooth scroll https://gomakethings.com/smooth-scrolling-links-with-only-css/
+[x] add smooth scroll https://gomakethings.com/smooth-scrolling-links-with-only-css/
 [ ] https://stackoverflow.com/questions/55398733/how-to-hover-underline-start-from-center-instead-of-left
 
 [-] quiz page? to be interactive
 [-] gradient fade out of navbar (using extra div?)
-
-
-readme:
-problem: i wanted to make background image fit screen vertically but i couldn't with just css background-image, so i used html img instead
-problem: for media query i wanted timeline images to show up underneath paragraphs when the screen is too thin, so i used this https://stackoverflow.com/questions/32559744/using-media-query-and-show-a-div-below-another-div-which-is-written-before
-problem: setting #site-logo width: 100% in 600px media query makes the link cover all of the header, so i 
-
-https://developer.mozilla.org/en-US/docs/Web/CSS used this for help with some css properties
-took inspiration from https://adventofcode.com/ for text-shadow glow
-struggled to get the images showing up correctly in timeline section, but overflow: hidden solved it
