@@ -10,6 +10,7 @@ html, body {
   height: 100%;
 }
 
+/* https://gomakethings.com/smooth-scrolling-links-with-only-css/ */
 html {
   scroll-behavior: smooth;
 }
