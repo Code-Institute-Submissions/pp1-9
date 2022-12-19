@@ -5,15 +5,15 @@
 [x] put images alongside different sections on overview page
 [x] form action + method
 [x] rewrite second paragraph in opening section
-[ ] add examples of yucatec maya to the language section
 [x] a "back to top" button at the bottom
 [x] footer
-
-[ ] sticky header
-[ ] add animations to things like form input outline, sections appearing maybe
-[ ] parallax on the background image?
 [x] add smooth scroll https://gomakethings.com/smooth-scrolling-links-with-only-css/
-[ ] https://stackoverflow.com/questions/55398733/how-to-hover-underline-start-from-center-instead-of-left
 
+
+[-] add examples of yucatec maya to the language section
+[-] sticky header
 [-] quiz page? to be interactive
 [-] gradient fade out of navbar (using extra div?)
+[-] add animations to things like sections appearing maybe
+[-] parallax on the background image?
+[-] https://stackoverflow.com/questions/55398733/how-to-hover-underline-start-from-center-instead-of-left
