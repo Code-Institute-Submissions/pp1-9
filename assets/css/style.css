@@ -59,11 +59,15 @@ h1 {
   margin-left: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  color: burlywood;
-  transition: 0.3s;
 }
 
-#site-logo:hover {
+#site-logo a {
+  color: burlywood;
+  text-decoration: none;
+  transition: 0.3s
+}
+
+#site-logo a:hover {
   text-shadow: 0 0 20px white;
 }
 
@@ -301,14 +305,10 @@ input[type=submit]:hover {
     height: 120px;
   }
   
-  header > a {
-    display: block;
-  }
-  
   #site-logo {
-    margin: 0;
+    float: none;
+    margin: 0 auto;
     text-align: center;
-    width: 100%;
   }
   
   #nav-menu {
