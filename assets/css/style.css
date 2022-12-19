@@ -81,13 +81,14 @@ main {
 
 section {
   width: 100%;
-  margin-top: 20px;
+  margin: 20px auto 0;
   border-radius: 20px;
   padding: 20px;
   
   background-color: rgba(255, 255, 255, 45%);
   backdrop-filter: blur(10px);
   filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 35%));
+  box-sizing: border-box;
 }
 
 section h2 {
@@ -119,6 +120,12 @@ section p {
   margin: 0 30px 15px;
   text-shadow: 0 0 3px white;
   line-height: 30px;
+  text-align: justify;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type */
+section p:last-of-type {
+  margin-bottom: 0;
 }
 
 article {
@@ -132,8 +139,13 @@ figure {
   clear: both;
 }
 
+audio {
+  width: 80%;
+}
+
 figcaption {
   margin: 0 10px;
+  text-align: center;
 }
 
 .left {
@@ -149,6 +161,13 @@ figcaption {
 
 #timeline img {
   max-width: 100%;
+}
+
+
+/* language */
+
+#language > p + p {
+  margin-bottom: 15px;
 }
 
 
@@ -169,7 +188,7 @@ figcaption {
 }
 
 
-/* contact */
+/* contact form */
 
 textarea {
   resize: none;
@@ -211,7 +230,7 @@ fieldset legend {
 .labels {
   display: inline-block;
   line-height: 30px;
-  width: 20%;
+  width: 125px;
   text-align: right;
   max-width: 180px;
 }
