@@ -278,3 +278,20 @@ input[type=submit]:hover {
     margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  #timeline article {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #timeline figure {
+    order: 1;
+    width: 80%;
+    margin: 0 auto 10px;
+  }
+  
+  #timeline p + p {
+    order: 2;
+  }
+}
