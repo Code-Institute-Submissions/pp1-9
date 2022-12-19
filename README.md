@@ -88,7 +88,7 @@ This was a slight challenge for me, but after searching for solutions to my prob
 - The text in the intro section was edited from [this website](https://www.historyonthenet.com/mayans-overview-civilization).
 - The text in the timeline and language sections was edited from [Wikipedia - Maya civilization](https://en.wikipedia.org/wiki/Maya_civilization), [Wikipedia - Mayan languages](https://en.wikipedia.org/wiki/Mayan_languages) and [Wikipedia - Yucatec Maya language](https://en.wikipedia.org/wiki/Yucatec_Maya_language).
 - The Wikipedia logo in the sources section was taken from [Font Awesome](https://fontawesome.com/).
-- Various websites helped me figure out how to implement particular features, these are mentioned in comments at the relevant locations.
+- [Various](https://gomakethings.com/smooth-scrolling-links-with-only-css/) [websites](https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type) [helped](https://stackoverflow.com/a/6796064/12317855) [me](https://stackoverflow.com/a/32102805/12317855) figure out how to implement particular features.
 
 ### Media
 

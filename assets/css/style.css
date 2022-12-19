@@ -10,7 +10,6 @@ html, body {
   height: 100%;
 }
 
-/* https://gomakethings.com/smooth-scrolling-links-with-only-css/ */
 html {
   scroll-behavior: smooth;
 }
@@ -132,7 +131,6 @@ section p {
   text-align: justify;
 }
 
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type */
 section p:last-of-type {
   margin-bottom: 0;
 }
@@ -228,8 +226,6 @@ textarea {
   resize: none;
   width: 100%;
   height: 100%;
-  
-  /* https://stackoverflow.com/questions/6795981/textarea-to-fill-a-parent-container-exactly-with-padding */
   box-sizing: border-box;
 }
 
@@ -237,8 +233,6 @@ input, textarea {
   border: 2px solid lightgrey;
   border-radius: 5px;
   padding: 2px;
-  
-  /* https://www.w3schools.com/howto/howto_css_transition_hover.asp */
   transition: 0.3s
 }
 
