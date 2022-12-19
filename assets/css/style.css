@@ -260,3 +260,21 @@ input[type=submit] {
 input[type=submit]:hover {
   border-color: black;
 }
+
+
+/* media queries */
+
+@media screen and (max-width: 1150px) {
+  #language figure {
+    float: none;
+  }
+  
+  #language figure {
+    width: 100%;
+  }
+  
+  audio {
+    display: block;
+    margin: 0 auto;
+  }
+}
