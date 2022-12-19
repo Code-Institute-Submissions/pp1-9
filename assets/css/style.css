@@ -325,3 +325,17 @@ input[type=submit]:hover {
     width: 95%;
   }
 }
+
+@media screen and (max-width: 450px) {
+  #language figure {
+    margin: 10px 0;
+  }
+  
+  header {
+    height: 60px;
+  }
+  
+  #nav-menu {
+    display: none;
+  }
+}
