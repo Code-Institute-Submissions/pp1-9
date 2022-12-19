@@ -138,6 +138,7 @@ section p:last-of-type {
 }
 
 footer {
+  position: relative;
   height: 25px;
   background-color: black;
 }
@@ -147,6 +148,14 @@ footer p {
   color: white;
   text-shadow: 0 0 2px white;
   text-align: center;
+}
+
+footer a {
+  position: absolute;
+  right: 10px;
+  top: 2px;
+  color: white;
+  text-shadow: 0 0 2px white;
 }
 
 
@@ -353,5 +362,9 @@ input[type=submit] {
   
   #nav-menu {
     display: none;
+  }
+
+  footer p {
+    text-align: left;
   }
 }
