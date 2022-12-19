@@ -227,7 +227,7 @@ input, textarea {
   transition: 0.3s
 }
 
-input:focus, textarea:focus {
+input:focus, textarea:focus, input[type=submit]:hover, input[type=submit]:focus {
   outline: none;
   border-color: black;
 }
@@ -274,10 +274,6 @@ input[type=submit] {
   color: black;
   text-shadow: 1px 1px 5px rgba(255, 255, 255, 100%);
   cursor: pointer;
-}
-
-input[type=submit]:hover {
-  border-color: black;
 }
 
 
