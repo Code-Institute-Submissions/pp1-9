@@ -79,7 +79,7 @@ h1 {
 /* main area */
 
 main {
-  margin: 0 auto;
+  margin: 0 auto 50px;
   width: 80%;
 }
 
@@ -132,6 +132,21 @@ section p:last-of-type {
   margin-bottom: 0;
 }
 
+footer {
+  height: 25px;
+  background-color: black;
+}
+
+footer p {
+  line-height: 25px;
+  color: white;
+  text-shadow: 0 0 3px white;
+  text-align: center;
+}
+
+
+/* articles */
+
 article {
   overflow: hidden;
   margin-bottom: 20px;
@@ -143,15 +158,15 @@ figure {
   clear: both;
 }
 
-audio {
-  width: 80%;
-}
-
 figcaption {
   margin: 0 10px;
   text-align: center;
 }
 
+audio {
+  width: 80%;
+}
+  
 .left {
   float: left;
 }
